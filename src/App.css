@@ -1,4 +1,10 @@
-.rbc-active{
+.rbc-active {
+  background: #bdb2ff !important;
+  box-shadow: none !important;
+  color: #fff !important;
+  border-color: #bdb2ff !important;
+}
+.rbc-btn-group button:hover {
   background: #bdb2ff !important;
   box-shadow: none !important;
   color: #fff !important;
