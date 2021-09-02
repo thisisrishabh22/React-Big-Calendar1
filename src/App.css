@@ -10,3 +10,8 @@
   color: #fff !important;
   border-color: #bdb2ff !important;
 }
+.rbc-event {
+  background: #bdb2ff !important;
+  border-color: #bdb2ff !important;
+  outline: none;
+}
