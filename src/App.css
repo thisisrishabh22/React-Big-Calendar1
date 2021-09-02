@@ -17,3 +17,7 @@
   border-color: #bdb2ff !important;
   outline: none;
 }
+/* Header style */
+.rbc-header{
+  padding: 10px 3px !important;
+}

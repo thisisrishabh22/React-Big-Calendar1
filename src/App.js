@@ -21,9 +21,9 @@ const MyCalendar = () => {
     },
   ];
   return (
-    <div>
+    <div style={{padding:'2rem 5px'}}>
       <Calendar
-        style={{ flex: 1 , minHeight:"100vh"}}
+        style={{ flex: 1 , minHeight:"90vh"}}
         localizer={localizer}
         events={events}
         startAccessor="start"
