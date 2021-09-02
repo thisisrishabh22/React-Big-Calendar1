@@ -1,23 +1,37 @@
 import { Calendar, momentLocalizer } from "react-big-calendar";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import moment from "moment";
-import './App.css';
+import "./App.css";
 
 // Setup the localizer by providing the moment (or globalize) Object
 // to the correct localizer.
 const localizer = momentLocalizer(moment); // or globalizeLocalizer
 
-const MyCalendar = () => (
-  <div>
-    <Calendar
-      style={{ flex: 1 }}
-      localizer={localizer}
-      events={[]}
-      startAccessor="start"
-      endAccessor="end"
-      defaultView="month"
-    />
-  </div>
-);
+const MyCalendar = () => {
+  const events = [
+    {
+      title: "All Day Event very long title",
+      start: new Date(2021, 9, 1),
+      end: new Date(2021, 9, 3),
+    },
+    {
+      title: "All Day Event very long title",
+      start: new Date(2021, 9, 4),
+      end: new Date(2021, 9, 5),
+    },
+  ];
+  return (
+    <div>
+      <Calendar
+        style={{ flex: 1 , minHeight:"100vh"}}
+        localizer={localizer}
+        events={events}
+        startAccessor="start"
+        endAccessor="end"
+        defaultView="month"
+      />
+    </div>
+  );
+};
 
 export default MyCalendar;
