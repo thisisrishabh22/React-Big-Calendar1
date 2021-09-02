@@ -1,3 +1,4 @@
+/* MOnth, week, day, Today, Back, Next Tabs */
 .rbc-active {
   background: #bdb2ff !important;
   box-shadow: none !important;
@@ -10,6 +11,7 @@
   color: #fff !important;
   border-color: #bdb2ff !important;
 }
+/* Event Tabs */
 .rbc-event {
   background: #bdb2ff !important;
   border-color: #bdb2ff !important;
